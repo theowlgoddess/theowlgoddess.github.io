@@ -1,0 +1,91 @@
+@font-face {
+ font-family: "Macondo Swash Caps";
+ src: url("./Resources/Macondo_Swash_Caps/MacondoSwashCaps-Regular.ttf") format('truetype');
+}
+
+* {
+  font-family: "Macondo Swash Caps", "Brush Script MT", "Georgia", papyrus;
+  color: #E38000; /* the text color */
+}
+
+body {
+  text-align: center;
+  background-image: linear-gradient(#021035, #0D2A76); /* the page color */
+  background-size: auto 100%;
+  font-size: 0.15rem;
+  letter-spacing: 0.025rem;
+  line-height: 0.05rem;
+  height: 100%;
+}
+
+canvas {
+  margin-top: 0.6rem;
+}
+
+/* div */
+#all-container {
+  text-align: center;
+  padding: 0rem;
+  margin: 0rem;
+  height: 93%;
+  width: 95%;
+  float: left;
+  margin-left: 0.15rem;
+}
+
+.row {
+  width: 60%;
+  margin: auto;
+}
+/* from W3 Schools: https://www.w3schools.com/howto/howto_css_three_columns.asp */
+.column {
+  float: left;
+  width: 33%;
+}
+
+h1 {
+  font-size: 0.5rem;
+  line-height: 0.5rem;
+  padding-bottom:0rem;
+  letter-spacing: 0.15rem;
+}
+
+h2 {
+  font-size: 0.2rem;
+  line-height: 0.5rem;
+  padding-bottom:0rem;
+  margin-bottom: 0rem;
+  letter-spacing: 0.05rem;
+  color: #E38880;
+}
+
+h1:hover {
+  text-decoration: none;
+}
+
+html {
+  font-size: 10vw;
+  height: 50vw;
+  padding: 0vw;
+  margin: 0vw;
+  min-height: 100%;
+}
+
+.animatedSprite {
+  margin-top: 0.4rem;
+  width: 50%;
+  margin-bottom: 0.6rem;
+}
+
+.animatedSprite.DK {
+  margin-top: 0.8rem;
+  width: 50%;
+}
+
+.animatedSprite:hover {
+  width: 60%;
+}
+
+.animatedSprite.DK:hover {
+  width: 80%;
+}
